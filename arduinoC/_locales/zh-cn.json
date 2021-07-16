@@ -1,0 +1,5 @@
+{
+    "led.servoBeg|block": "设置[IO]引脚伺服舵机为[N]度",
+    "led.SIZE.1|menu": "29*29(1)",
+    "led.SIZE.2|menu": "58*58(2)"
+}

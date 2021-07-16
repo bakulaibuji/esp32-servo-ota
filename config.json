@@ -1,0 +1,38 @@
+{
+  "name": {
+    "zh-cn": "舵机模块(OTA)",
+    "en": "steering engine modular"
+  },
+  "description": {
+    "zh-cn": "使用OTA，用于设置炖鸡运动",
+    "en": "steering engine modular"
+  },
+  "author": "CoCube",
+  "email": "me_wyx@sjtu.edu.cn",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "myServo",
+  "version": "1.0.1",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "1.0.1",
+      "board": [
+        "firebeetleesp32"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/firebeetleesp32.json",
+        "main.ts",
+        "libraries/libraries.zip"
+      ]
+    }
+  }
+}
